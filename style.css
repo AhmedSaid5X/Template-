@@ -235,6 +235,9 @@ font-weight: 900;
 .services{
     padding-top: 40px;
     margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .services .container{
      padding-left: 15px;
@@ -279,6 +282,9 @@ font-weight: 900;
     padding-bottom: 40px;
     background-color: #d3d2d22c;
     margin-top: 40px;
+       display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .portfolio .container{
     padding-left: 15px;
@@ -318,6 +324,9 @@ font-weight: 900;
      padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 40px;
+       display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about .container{
     padding-left: 15px;
@@ -419,6 +428,10 @@ font-weight: 900;
 /*Start contact*/
 .contact{
     background-color: #d3d2d22c;
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact .text{
     padding-top: 30px;
